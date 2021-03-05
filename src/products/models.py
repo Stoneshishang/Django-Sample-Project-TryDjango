@@ -7,3 +7,4 @@ class Product(models.Model):
     title = models.TextField()
     description = models.TextField()
     price = models.TextField()
+    activate = models.TextField(default='this is cool!')
